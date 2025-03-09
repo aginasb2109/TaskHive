@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 let items = [
-  { id: 1, title: "Buy Chocolate" },
+  { id: 1, title: "Buy milk and bread" },
   { id: 2, title: "Finish homework" },
 ];
 
